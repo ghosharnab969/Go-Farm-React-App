@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.bg-div {
+  background-image: url("./Assets/bgFirstScreen.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.banner,
+.working {
+  font-family: "Jost", sans-serif;
+}
+
+.steps {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28.6px;
+}
+
+.location {
+  font-size: 15px;
+  line-height: 22.05px;
+}
+
+.brandHead{
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 30px;
+}
+
+.brands{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
